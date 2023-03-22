@@ -27,15 +27,9 @@ module.exports = {
         message: 'License',
         default: 'MIT',
       },
-      {
-        type: 'checkbox',
-        name: 'lintConfig',
-        choices: ['eslint', 'prettier'],
-      },
     ])
   },
   configureFilter: {
-    '.eslintrc.js': 'lintConfig.includes("eslint")',
   },
   // 完成
   complete: (data, { logger, chalk }) => {
