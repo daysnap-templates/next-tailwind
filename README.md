@@ -38,3 +38,13 @@ npm install tailwind autoprefixer postcss
 ```bash 
 npx tailwindcss init -p
 ```
+
+
+## 集成 prettier
+```bash
+npm install eslint-config-prettier prettier eslint-plugin-prettier 
+```
+```
+// eslint config
+// https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
+```
