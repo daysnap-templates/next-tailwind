@@ -26,6 +26,15 @@ dsc -h
 npx create-next-app@latest --typescript
 ```
 
+
+## 集成 tailwind css
+
+- 安装依赖
+```bash
+npm install tailwind autoprefixer postcss
+```
+
+- 生成配置文件
 ```bash 
 npx tailwindcss init -p
 ```
