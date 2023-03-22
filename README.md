@@ -31,7 +31,7 @@ npx create-next-app@latest --typescript
 
 - 安装依赖
 ```bash
-npm install tailwind autoprefixer postcss
+npm install tailwindcss autoprefixer postcss
 ```
 
 - 生成配置文件
